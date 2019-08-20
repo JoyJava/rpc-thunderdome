@@ -1,9 +1,9 @@
-package io.hb.thunderdome.dubbo;
+package io.fh.thunderdome.dubbo;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.ReferenceConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
-import io.hb.thunderdome.dubbo.services.DubboService;
+import io.fh.thunderdome.dubbo.services.DubboService;
 import io.netty.channel.nio.NioEventLoopGroup;
 import io.netty.util.concurrent.DefaultThreadFactory;
 import java.util.concurrent.CountDownLatch;

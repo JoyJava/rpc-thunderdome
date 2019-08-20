@@ -1,10 +1,10 @@
-package io.hb.thunderdome.dubbo;
+package io.fh.thunderdome.dubbo;
 
 import com.alibaba.dubbo.config.ApplicationConfig;
 import com.alibaba.dubbo.config.RegistryConfig;
 import com.alibaba.dubbo.config.ServiceConfig;
-import io.hb.thunderdome.dubbo.services.DefaultDubboServiceImpl;
-import io.hb.thunderdome.dubbo.services.DubboService;
+import io.fh.thunderdome.dubbo.services.DefaultDubboServiceImpl;
+import io.fh.thunderdome.dubbo.services.DubboService;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

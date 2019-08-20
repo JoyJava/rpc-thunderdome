@@ -1,4 +1,4 @@
-package io.hb.thunderdome.dubbo.services;
+package io.fh.thunderdome.dubbo.services;
 
 public class DefaultDubboServiceImpl implements DubboService {
 

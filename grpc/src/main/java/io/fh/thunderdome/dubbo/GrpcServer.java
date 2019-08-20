@@ -1,4 +1,4 @@
-package io.hb.thunderdome.dubbo;
+package io.fh.thunderdome.dubbo;
 
 import io.grpc.netty.NettyChannelBuilder;
 import io.grpc.netty.NettyServerBuilder;

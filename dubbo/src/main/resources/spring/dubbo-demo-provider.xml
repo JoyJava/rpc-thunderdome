@@ -35,9 +35,9 @@
 
     <!-- service implementation, as same as regular local bean -->
 <!--    <bean id="helloService" class="org.apache.dubbo.samples.basic.impl.BasicHelloServiceImpl"/>-->
-    <bean id="helloService" class="io.hb.thunderdome.dubbo.services.DefaultDubboServiceImpl"/>
+    <bean id="helloService" class="io.fh.thunderdome.dubbo.services.DefaultDubboServiceImpl"/>
 
     <!-- declare the service interface to be exported -->
-    <dubbo:service interface="io.hb.thunderdome.dubbo.services.DubboService" ref="helloService"/>
+    <dubbo:service interface="io.fh.thunderdome.dubbo.services.DubboService" ref="helloService"/>
 
 </beans>
