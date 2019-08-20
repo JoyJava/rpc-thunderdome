@@ -5,7 +5,6 @@ import io.grpc.stub.StreamObserver;
 import io.netifi.testing.protobuf.SimpleRequest;
 import io.netifi.testing.protobuf.SimpleResponse;
 import io.netifi.testing.protobuf.SimpleServiceGrpc;
-import io.netifi.thunderdome.grpc.nonblocking.rs.MultithreadedGrpcRequestReplyClient;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

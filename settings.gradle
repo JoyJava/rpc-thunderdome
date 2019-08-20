@@ -2,3 +2,5 @@ rootProject.name = 'rpc-thunderdome'
 include 'grpc'
 include 'rsocket-rpc'
 include 'ratpack'
+include 'dubbo'
+

@@ -1,4 +1,4 @@
-package io.netifi.thunderdome.grpc.nonblocking.rs;
+package io.hb.thunderdome.dubbo;
 
 import io.grpc.netty.NettyChannelBuilder;
 import io.grpc.netty.NettyServerBuilder;

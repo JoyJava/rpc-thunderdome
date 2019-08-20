@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+}
+
+group 'io.netifi'
+version '1.0.0'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile("org.apache.dubbo:dubbo:2.7.3") {
+        exclude group: 'org.apache.thrift', module: 'libthrift'
+    }
+
+//    compile "org.apache.dubbo:dubbo-bom:3.0.0-SNAPSHOT"
+//    compile "org.apache.dubbo:dubbo-rpc-rsocket:3.0.0-SNAPSHOT"
+
+
+    compile 'org.apache.curator:curator-framework:4.0.1'
+    compile "org.hdrhistogram:HdrHistogram:$hdrHistogramVersion"
+    compile "io.projectreactor:reactor-core:$reactorCoreVersion"
+
+    compile "io.netty:netty-transport-native-epoll:$nettyEpollVersion"
+    compile "com.google.api.grpc:proto-google-common-protos:$grpcCommonsVersion"
+    compile "io.grpc:grpc-netty:$grpcVersion"
+    compile "io.grpc:grpc-protobuf:$grpcVersion"
+    compile "io.grpc:grpc-stub:$grpcVersion"
+//    testCompile "io.grpc:grpc-testing:$grpcVersion"
+    testCompile "junit:junit:$junitVersion"
+    testCompile "org.mockito:mockito-core:$mockitoVersion"
+
+}
